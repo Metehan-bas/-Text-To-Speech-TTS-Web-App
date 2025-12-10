@@ -70,4 +70,6 @@ CREATE TABLE texts (
 );
 ```
 ## Uygulamayı Çalıştırma
+```cmd
 python app.py
+```
