@@ -1,4 +1,3 @@
-# -Text-To-Speech-TTS-Web-App
 # 🔊 Text To Speech (TTS) Web App
 
 Bu proje, kullanıcının yazdığı metni seslendiren ve indirilebilir hale getiren basit bir web uygulamasıdır.
@@ -26,20 +25,21 @@ Bu proje, kullanıcının yazdığı metni seslendiren ve indirilebilir hale get
 
 ## 📁 Proje Yapısı
 
-
+```plaintext
 project/
-├── app.py
-├── templates/
-│ └── index.html
-├── static/
-│ └── style.css
-└── README.md
+ │
+ ├── app.py
+ ├── templates/
+ │   └── index.html
+ ├── static/
+ │   └── style.css
+ └── README.md
 ---
-
 ## ⚙️ Kurulum
 
 Projeyi klonla:
 git clone https://github.com/Metehan-bas/-Text-To-Speech-TTS-Web-App.git
+
 
 
 Proje klasörüne gir:
