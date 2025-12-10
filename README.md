@@ -1,1 +1,71 @@
 # -Text-To-Speech-TTS-Web-App
+# 🔊 Text To Speech (TTS) Web App
+
+Bu proje, kullanıcının yazdığı metni seslendiren ve indirilebilir hale getiren basit bir web uygulamasıdır.
+
+---
+
+## 🚀 Özellikler
+
+- Metin girişi
+- Metni kaydetme
+- Seslendirme ve indirme
+- Neon efektli modern arayüz
+- Animasyonlu border efektleri
+
+---
+
+## 🛠️ Kullanılan Teknolojiler
+
+- HTML
+- CSS
+- JavaScript
+- Python (Flask)
+
+---
+
+## 📁 Proje Yapısı
+
+
+project/
+├── app.py
+├── templates/
+│ └── index.html
+├── static/
+│ └── style.css
+└── README.md
+---
+
+## ⚙️ Kurulum
+
+Projeyi klonla:
+git clone https://github.com/Metehan-bas/-Text-To-Speech-TTS-Web-App.git
+
+
+Proje klasörüne gir:
+cd -Text-To-Speech
+
+Gerekli paketleri yükle:
+
+pip install flask
+pip install pyttsx3
+pip install mysql-connector-python
+pip install pywin32
+
+
+---
+
+## 🗄️ MySQL Veritabanı Kurulumu
+
+MySQL’de şu tabloyu oluştur:
+
+```sql
+CREATE DATABASE tts_db;
+USE tts_db;
+
+CREATE TABLE texts (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    content TEXT NOT NULL
+);
+## Uygulamayı Çalıştırma
+python app.py
