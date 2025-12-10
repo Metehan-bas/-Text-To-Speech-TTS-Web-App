@@ -68,5 +68,6 @@ CREATE TABLE texts (
     id INT AUTO_INCREMENT PRIMARY KEY,
     content TEXT NOT NULL
 );
+```
 ## Uygulamayı Çalıştırma
 python app.py
