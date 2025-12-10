@@ -38,21 +38,21 @@ project/
 ## ⚙️ Kurulum
 
 # Projeyi klonla:
-
+```git
 git clone https://github.com/Metehan-bas/-Text-To-Speech-TTS-Web-App.git
+```
 
-
-
-Proje klasörüne gir:
+# Proje klasörüne gir:
+```cmd
 cd -Text-To-Speech
-
+```
 # Gerekli paketleri yükle:
-
+```pip
 pip install flask
 pip install pyttsx3
 pip install mysql-connector-python
 pip install pywin32
-
+```
 
 ---
 
