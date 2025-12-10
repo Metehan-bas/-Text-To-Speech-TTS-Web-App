@@ -34,10 +34,11 @@ project/
  ├── static/
  │   └── style.css
  └── README.md
----
+```
 ## ⚙️ Kurulum
 
-Projeyi klonla:
+# Projeyi klonla:
+
 git clone https://github.com/Metehan-bas/-Text-To-Speech-TTS-Web-App.git
 
 
@@ -45,7 +46,7 @@ git clone https://github.com/Metehan-bas/-Text-To-Speech-TTS-Web-App.git
 Proje klasörüne gir:
 cd -Text-To-Speech
 
-Gerekli paketleri yükle:
+# Gerekli paketleri yükle:
 
 pip install flask
 pip install pyttsx3
