@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>TTS</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+    <!--https://github.com/Metehan-bas-->
+<div class="container">
+    <div class="page">
+        <div class="content">
+
+            <input id="text" placeholder="Metni yaz">
+
+            <button onclick="save()">Kaydet</button>
+            <button onclick="speak()" id="speak">Seslendir ve indir</button>
+        </div>
+    </div>
+</div>
+
+<script>
+    function save(){
+        const text = document.getElementById("text").value;
+
+        fetch("/save", {
+            method: "POST",
+            headers: {"Content-Type":"application/json"},
+            body: JSON.stringify({text})
+        });
+    }
+
+    function speak(){
+        window.location.href = "/speak";
+    }
+</script>
+    <!--https://github.com/Metehan-bas-->
+
+</body>
+</html>
